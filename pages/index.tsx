@@ -1,10 +1,10 @@
 import { styled } from "@/styles";
 
 const Button = styled("button", {
-  backgroundColor: "$rocketseat",
+  backgroundColor: "$green500",
   padding: "4px, 8px",
   border: 0,
-  borderRadius: 8,
+  borderRadius: 4,
 
   span: {
     fontWeight: "bold",
@@ -15,20 +15,9 @@ const Button = styled("button", {
   },
 })
 
-const Header = styled("header", {
-  display: "block",
-  backgroundColor: "Blue",
-  width: 256,
-  height: 100,
-  paddingBottom: 20,
-})
-
 export default function Home() {
   return (
   <>
-    <Header>
-    Olá, boa tarde!
-    </Header>
     <Button>
     <span>Teste</span>    
     Enviar
