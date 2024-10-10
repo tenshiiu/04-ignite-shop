@@ -36,9 +36,12 @@ export const Product = styled("a", {
       transform: 'translateY(110%)',
       opacity: 0,
       transition: 'all 0.2s ease-in-out',
+
       strong: {
-        fontSize: '$lg'
+        fontSize: '$lg',
+        color: "$gray100"
       },
+
       span: {
         fontSize: '$xl',
         fontWeight: 'bold',
