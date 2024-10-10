@@ -10,11 +10,11 @@ import { useKeenSlider } from "keen-slider/react";
 
 export default function Home() {
   const [sliderRef] = useKeenSlider({
-  slides: {
+    slides: {
     perView: 3,
     spacing: 48
   }    
-    
+  
   })
   return (
   <HomeContainer ref={sliderRef} className="keen-slider">
